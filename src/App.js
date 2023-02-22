@@ -1,20 +1,18 @@
-import Navigation from "./Components/Nav";
-import Header from "./Components/Header";
-import Services from "./Components/Services/Services";
-import Footer from "./Components/Footer";
-import EmployeeMap from "./Components/Employees/Employees";
+import Navigation from "./components/Navigation/Navigation";
+import Header from "./components/Header/Header";
+import Services from "./components/Offer/BoxContainer";
+import Footer from "./components/Footer/Footer";
+import Employees from "./components/AboutUs/WorkersContainer";
 
 function App() {
-
-
   return (
-    <div className="App">
+    <>
       <Navigation />
       <Header />
-      <EmployeeMap/>
+      <Employees />
       <Services />
       <Footer />
-    </div>
+    </>
   );
 }
 

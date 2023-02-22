@@ -1,0 +1,212 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-weight: 700;
+  color: #fff;
+  font-size: 36px;
+  padding-bottom: 60px;
+  line-height: 1.3cm;
+}
+
+.container-navigation,
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-navigation {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+nav,
+.footer {
+  display: flex;
+  background-color: rgba(78, 78, 78, 1);
+  height: 50px;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact {
+  cursor: not-allowed;
+}
+
+.header {
+  display: flex;
+  height: calc(100vh - 50px);
+  background-image: url(./assets/img7.png);
+  background-size: cover;
+  color: #fff;
+}
+
+.header-cover {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.wrapper-header-content {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.header-paragraph {
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+
+.button-link {
+  background-color: transparent;
+  text-align: center;
+  width: 170px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 0px;
+  color: #fff;
+  border: 3px solid #ffffff;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.button-link:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.about-us {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  background: rgba(241, 241, 241, 1);
+  padding: 50px 0px;
+}
+
+.container-employees {
+  display: flex;
+  flex-direction: column;
+}
+
+.employees-section-title {
+  color: #152d41;
+}
+
+.img-employe-odd,
+.img-employe-even {
+  height: 190px;
+  aspect-ratio: 1;
+  background-size: cover;
+  border-radius: 50%;
+  background-position: center;
+}
+.about-employe-odd,
+.about-employe-even,
+.footer-icons {
+  display: flex;
+  
+}
+
+.about-employe-even {
+  flex-direction: row-reverse;
+}
+
+.paragraph-employe,
+.new-offer-paragraph {
+  font-size: 18px;
+}
+
+.employe-odd,
+.employe-even {
+  margin: 20px;
+  text-align: justify;
+}
+
+.employe-even :nth-child(1) {
+  text-align: right;
+}
+
+.name-employe {
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+.offer-section {
+  background-color: rgba(64, 93, 120, 1);
+  padding: 50px 0px;
+}
+
+.container-box-offer {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  justify-content: center;
+  gap: 50px;
+}
+
+.box {
+  display: flex;
+  height: 200px;
+  background-color: rgba(241, 241, 241, 1);
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  transition: 0.5s;
+}
+
+.box-new-offer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.new-offer-dot {
+  width: 22px;
+  height: 22px;
+  background: rgba(224, 122, 100, 1);
+  border-radius: 50%;
+  position: absolute;
+  top: -11px;
+  left: -11px;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  height: 70px;
+}
+
+.fa-square-facebook,
+.fa-instagram {
+  font-size: 30px;
+  margin-left: 20px;
+}
